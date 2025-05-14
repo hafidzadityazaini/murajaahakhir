@@ -8,7 +8,7 @@ import DetailPage from "./detailPage";
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-200 flex items-center justify-center">
         <Routes>
           <Route path="/" element={<InputHal />} />
           <Route path="/output" element={<OutputHal />} />

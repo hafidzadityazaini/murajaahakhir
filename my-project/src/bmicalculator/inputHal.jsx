@@ -31,7 +31,7 @@ function InputHal() {
             type="number"
             value={berat}
             onChange={(e) => setBerat(e.target.value)}
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full border border-gray-500 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             required
           />
         </div>
@@ -41,13 +41,13 @@ function InputHal() {
             type="number"
             value={tinggi}
             onChange={(e) => setTinggi(e.target.value)}
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full border border-gray-500 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             required
           />
         </div>
         <button
           type="submit"
-          className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
+          className="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-700 transition"
         >
           Hitung BMI
         </button>
