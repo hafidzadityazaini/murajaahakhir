@@ -7,7 +7,7 @@ const DetailPage = () => {
 
   return (
     <div className="max-w-xl mx-auto p-6 bg-white shadow-lg rounded-2xl mt-8">
-      <h1 className="text-3xl font-bold text-green-700 mb-4 text-center">
+      <h1 className="text-3xl font-bold text-green-500 mb-4 text-center">
         Hidup Sehat
       </h1>
 
@@ -17,7 +17,7 @@ const DetailPage = () => {
         className="rounded-lg shadow mb-4 w-full object-cover"
       />
 
-      <p className="text-gray-700 text-lg mb-4">
+      <p className="text-gray-500 text-lg mb-4">
         Menjaga kesehatan tubuh dimulai dari kebiasaan kecil seperti olahraga,
         makan sayur, dan tidur cukup.
       </p>
