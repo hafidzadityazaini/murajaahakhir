@@ -39,7 +39,7 @@ function OutputHal() {
       <div className="mt-6 space-y-4">
         <button
           onClick={() => navigate("/")}
-          className="w-full bg-gray-700 text-white py-2 rounded-lg hover:bg-gray-800 transition"
+          className="w-full bg-gray-500 text-white py-2 rounded-lg hover:bg-gray-700 transition"
         >
           Hitung Ulang
         </button>
